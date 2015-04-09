@@ -33,7 +33,7 @@ class FlightCsvReader(self: RDD[String]) {
     /**
      *
      * Obtain the average distance fliyed by airport, taking the origin field as the airport to group
-     *
+     *Prueba
      */
     def averageDistanceByAirport: RDD[(String, Float)] = ???
   }
